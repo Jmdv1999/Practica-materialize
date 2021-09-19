@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jose Delgado || Practica</title> <!-- Compiled and minified CSS -->
+    <title>Jose Delgado || Practica</title> 
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css
 </head>
 <body>
     <div class="navbar-fixed">
@@ -14,7 +16,7 @@
             <div class="nav-wrapper container">
                 <div class="nav-wraper">
                     <a href="#" class="brand-logo">Logo</a>
-                    <a href="#" data-target="menu-responsivo" class="sidenav-trigger"><i>+</i></a>
+                    <a href="#" data-target="menu-responsivo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#hero">Inicio</a></li>
                         <li><a href="#capturas">Capturas</a></li>
@@ -27,10 +29,11 @@
         </nav>
     </div>
     <ul id="menu-responsivo" class="sidenav">
-        <li><a href="#">Enlace1</a></li>
-        <li><a href="#">Enlace2</a></li>
-        <li class="divider"></li>
-        <li><a href="#">Enlace3</a></li>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#capturas">Capturas</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#contacto">Contactanos</a></li>
     </ul>
     <div class="black white-text scrollspy" id="hero">
             <svg  viewBox="0 0 1440 320">
@@ -224,7 +227,8 @@
                          <input type="text" name="mensaje" id="mensaje" class="validate" required>
                          <label for="mensaje">Mensaje:</label>
                     </div>
-                    <button class="btn btn-large red" type="submit">Enviar</button>
+                    <button class="btn btn-large red" type="submit">Enviar<i class="material-icons right">send</i>
+</button>
                 </div>
             </form>
         </div>
@@ -237,12 +241,12 @@
     </div>
     <div class="fixed-action-btn">
         <a class="btn-floating btn-large red">
-            <i class="large">+</i>
+            <i class="material-icons">add</i>
         </a>
         <ul>
-            <li class="btn-floating blue"><a href="#">1</a></li>
-            <li  class="btn-floating yellow"><a href="#">2</a></li>
-            <li class="btn-floating green"><a href="#">3</a></li>
+            <li class="btn-floating" style="background:#3b5998;"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="btn-floating" style="background:#C13584;"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="btn-floating" style="background:#FFFFFF;"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
 
         </ul>
     </div>
